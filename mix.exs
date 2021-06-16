@@ -31,8 +31,8 @@ defmodule Paranoid.MixProject do
 
   defp deps do
     [
-      {:ecto, "> 3.1", optional: true},
-      {:ecto_sql, ">= 3.1.6"},
+      {:ecto, "~> 3.5.8", optional: true},
+      {:ecto_sql, "~> 3.3.3"},
       {:earmark, ">= 0.0.0", only: :dev},
       {:postgrex, ">= 0.0.0", only: [:test]},
       {:ex_doc, "~> 0.18.3", only: :dev}
